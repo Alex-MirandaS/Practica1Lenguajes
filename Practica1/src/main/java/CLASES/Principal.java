@@ -6,6 +6,7 @@
 package CLASES;
 
 import GUI.PrincipalGUI;
+import GUI.TablaResultados;
 
 /**
  *
@@ -20,7 +21,7 @@ public class Principal {
 
         identificador = new Identificador();
         principal = new PrincipalGUI(identificador);
-
+        
     }
 
     public void iniciar() {
